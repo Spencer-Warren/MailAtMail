@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap Assginment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="m-2">
+    <div class="container-fluid">
+        <div class="row">
+            <img class="col-1" src="mailbox.svg" alt="mailbox" width="50" height="50">
+            <nav class="nav nav-tabs nav-justified col-10">
+                <a class="nav-link active" href="#">Mail</a>
+                <a class="nav-link link-secondary" href="#">Contacts</a>
+                <a class="nav-link link-secondary" href="#">Chat</a>
+                <a class="nav-link link-secondary" href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container-fluid m-4 ">
+        <div class="row">
+            <nav class="nav-pills flex-column col-1 border p-3">
+                <a class="nav-link active p-2" href="#">Primary</a><hr>
+                <a class="nav-link link-secondary p-2" href="#">Inbox</a><hr>
+                <a class="nav-link link-secondary p-2" href="#">Sent</a><hr>
+                <a class="nav-link link-secondary p-2" href="#">Drafts</a><hr>
+                <a class="nav-link link-secondary p-2" href="#">Trash</a><hr>
+                <a class="nav-link link-secondary p-2" href="#">Spam</a>
+            </nav>
+            
+    
+            <div class="col-10">
+            <table class="table table-striped table-dark table-hover table-bordered ">
+                <thead class="table-light">
+                    <th>From</th>
+                    <th>Subject</th>
+                    <th>Date</th>
+                </thead>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Mar 21</td>
+
+                </tr>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>Hi there, how are you?</td>
+                    <td>Mar 21</td>
+                </tr>
+                <tr>
+                    <td>Jack Black</td>
+                    <td>Officia qui aute et laboris aute ex eu aliquip minim elit aliquip.</td>
+                    <td>Mar 21</td>
+
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Mar 20</td>
+                </tr>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>Hi there, how are you?</td>
+                    <td>Mar 19</td>
+
+                </tr>
+                <tr>
+                    <td>Jack Black</td>
+                    <td>Officia qui aute et laboris aute ex eu aliquip minim elit aliquip.</td>
+                    <td>Mar 2</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<div class="container-fluid fixed-bottom bg-body-tertiary text-center">
+    <p>&copy; 2021 Email, Inc.</p>
+    <a class="link-secondary" href="#">Privacy</a> | <a  class="link-secondary" href="#">Terms</a> | <a  class="link-secondary" href="#">Support</a>
+</div>
+</html>
